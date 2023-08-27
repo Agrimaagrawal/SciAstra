@@ -3,7 +3,7 @@ import logo from '../assets/Sciastralogo.png';
 const Footer = () => {
   return (
     <>
-    <div className='w-full h-screen bg-footer-texture'>
+    <div className="w-full h-screen bg-[url('/footermain.jpg')]">
         <div className='text-white ml-14 mt-5 font-poppins'>
       <div className='w-28 mt-6'><img src={logo} className="rounded-full"></img></div>
       <h1 className='text-2xl font-bold text-white font-poppins'>SciAstra</h1>
